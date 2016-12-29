@@ -14,8 +14,8 @@ TICKER = 'BTC_{currency}'.format(currency=CURRENCY)
 # polo
 polo = Poloniex(extend=True, coach=True)
 # API KEY
-polo.KEY = 1111  # to be filled
-polo.SECRET = 1111  # to be filled
+polo.Key = 1111  # to be filled
+polo.Secret = 1111  # to be filled
 
 TIME = time.time() - SECS
 # for checking the balance in the first iteration
